@@ -2,7 +2,7 @@
 
 
 # Definition Of Audience
-Anglers across America with the knowledge, ability, and desire to use the internet to find good fishing areas.
+Ultimately, this website will be aimed at anglers across America with the knowledge, ability, and desire to use the internet to find good fishing areas.  Along the way I will look for input and feedback from my mentors. peers, and career coaches, hoping that my produce will catch the attention of recruiters and hiring managers.
 
 # Definition Statement
 If you want to find fish, this is your website.  I want to create a web application that makes information on public fishing areas easily accessible to fishermen everywhere.  This website will search available places to fish based on the users location and/or targeted species of fish.
@@ -19,7 +19,7 @@ Growing up in central Michigan, there was never a shortage of areas to fish.  Al
 - Contact
 - Log In
 - Search Bar (Location/Species Input)
-- Local Hotspots
+- Local Hot Spots
 - Recent Posts
 
 
@@ -40,7 +40,7 @@ Growing up in central Michigan, there was never a shortage of areas to fish.  Al
 - Title
 - Content
 
-## Local Hotspots / Recent Posts (pop-up window)
+## Local Hot Spots / Recent Posts (pop-up window)
 - Title
 - Content
 - Add Comment / Upload Image Bar
