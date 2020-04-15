@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="index.css" type="text/css" rel="stylesheet">
+    <title>The Fish Net</title>
+</head>
+<body>
+    <header class="pageHeading">
+        <nav>
+            <a href="./about.html" class="about">About</a>
+            <a href="./contact.html" class="contact">Contact</a>
+            <a href="./login.html" class="login">Login</a>
+        </nav>
+        <h1 class="heading"><a href="./TheFishNet.html">The Fishing Hole</a></h1>
+    </header>
+    
+    <main>
+        <h1>Lake Search:</h1>
+        <div class="lakeSearch">
+            <form action="searchResults.HTML" method="POST">
+                <div class="search">
+                    <section>
+                        <label>Zip Code</label>
+                        <input type="text" name="Zip Code" value="Login for location">
+                    </section>
+                </div>
+                <div class="search">
+                    <section>
+                        <div class="search">
+                            <p class= "search">Accessibility:</p>
+                            <input type="radio" id="any" name="choice" value="Any">
+                            <label for="any">Any</label>
+                            <br>
+                        </div>
+                        <div class="search">
+                            <input type="radio" id="public" name="choice" value="Public">
+                            <label for="public">Public</label>
+                            <br>
+                        </div>
+                        <div class="search">
+                            <input type="radio" id="private" name="choice" value="Private">
+                            <label for="private">Private</label>
+                        </div>
+                    </section>
+                </div>
+                <div class="search">
+                    <section>
+                        <label>Species</label>
+                        <input type="text" name="Species" value="Optional">
+                    </section>
+                </div>
+                    <section>
+                        <input class="submit" type="submit" value="Submit">
+                    </section>
+            </form>
+        </div>
+
+        <div class="entries">
+            <h3>Local Hot Spots</h3>
+            <ul>
+                <li>Login for local Hot Spots.</li>
+            </ul>
+        </div>
+        <div class="entries">
+            <h3>Recent Posts</h3>
+            <ul>
+                <li>Goose Takeover in Benton Park!</li>
+                <li>Where's the fish?</li>
+            </ul>
+        </div>
+    </main>
+
+</body>
+</html>

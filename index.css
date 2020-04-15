@@ -1,0 +1,60 @@
+.pageHeading {
+    background-color: midnightblue; 
+    height: 100px;
+    width: 100%;
+}
+
+nav > a {
+    float: right;
+    color: white;
+    padding-right: 10px;
+}
+
+.heading {
+    color: yellow;
+    position: relative;
+    left: 39%;
+    top: 50px;
+    font-size: xx-large;
+}
+
+h1 > a {
+    color: yellow;
+}
+
+main {
+    height: 600px;
+    width: 100%;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    position: relative;
+    left: 41%;
+}
+
+.search {
+    display: inline-block;
+}
+
+form {
+    color: white;
+    display: inline-block;
+}
+
+.entries {
+    display: inline-block;
+    color: white;
+    width: 40%;
+    position: relative;
+    top: 150px;
+}
+
+.hotSpots {
+    color: white;
+}
+
+.recentPosts {
+    color: white;
+}
