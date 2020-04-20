@@ -1,60 +1,78 @@
-.pageHeading {
-    background-color: midnightblue; 
-    height: 100px;
-    width: 100%;
+header {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(12, 1fr);
+    background-color: midnightblue;
 }
 
-nav > a {
-    float: right;
-    color: white;
-    padding-right: 10px;
+h3 > a {
+    color: #fff;
 }
 
-.heading {
-    color: yellow;
-    position: relative;
-    left: 39%;
-    top: 50px;
-    font-size: xx-large;
+nav {
+    grid-area: 1 / 9 / span 1 / span 4;
+    justify-self: right;
 }
 
-h1 > a {
-    color: yellow;
+.about {
+    color: #fff;
 }
 
-main {
-    height: 600px;
-    width: 100%;
-    background-color: black;
+.contact {
+    color: #fff;
+}
+
+.login {
+    color: #fff;
 }
 
 h1 {
-    color: white;
-    position: relative;
-    left: 41%;
+    grid-area: 1 / 4 / span 2 / span 6;
+    color: #fff05a;
+    justify-self: center;
+    font-family: cursive;
+    margin: 0;
+    align-self: center;
 }
 
-.search {
-    display: inline-block;
+main {
+    background-color: #000;
+    min-height: 500px;
+    display: grid;
+    grid-template: repeat(9, 1fr)/repeat(12, 1fr);
+}
+
+h2 {
+    color: #fff;
+    grid-area: 1/1/span 1/span 4;
 }
 
 form {
-    color: white;
-    display: inline-block;
+    color: #fff;
+    grid-area: 2/1/span 2/span 12;
 }
 
-.entries {
-    display: inline-block;
-    color: white;
-    width: 40%;
-    position: relative;
-    top: 150px;
+.location {
+    grid-area: 2/1/span 2/span 4;
+}
+
+.accessibility {
+    grid-area: 2/5/span 2/span 4;
+}
+
+.species {
+    grid-area: 2/9/span 2/span 4;
+}
+
+.submit {
+    grid-area: 4/6/span 1/span 2;
 }
 
 .hotSpots {
     color: white;
+    grid-area: 7/1/span 3/span 3;
 }
 
-.recentPosts {
+.posts {
     color: white;
+    grid-area: 7/10/span 3/span 3;
 }

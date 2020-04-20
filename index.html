@@ -2,66 +2,63 @@
 <html>
 <head>
     <link href="index.css" type="text/css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>The Fish Net</title>
 </head>
 <body>
-    <header class="pageHeading">
+    <script src="./index.js"></script>
+    <header>
+        <div class="home">
+            <h3><a href=index.html>Home</a></h3>
+        </div>
         <nav>
             <a href="./about.html" class="about">About</a>
             <a href="./contact.html" class="contact">Contact</a>
             <a href="./login.html" class="login">Login</a>
         </nav>
-        <h1 class="heading"><a href="./TheFishNet.html">The Fishing Hole</a></h1>
+        <h1>TheFishingHole</h1>
     </header>
     
     <main>
-        <h1>Lake Search:</h1>
-        <div class="lakeSearch">
-            <form action="searchResults.HTML" method="POST">
-                <div class="search">
-                    <section>
-                        <label>Zip Code</label>
-                        <input type="text" name="Zip Code" value="Login for location">
-                    </section>
-                </div>
-                <div class="search">
-                    <section>
-                        <div class="search">
-                            <p class= "search">Accessibility:</p>
-                            <input type="radio" id="any" name="choice" value="Any">
-                            <label for="any">Any</label>
-                            <br>
-                        </div>
-                        <div class="search">
-                            <input type="radio" id="public" name="choice" value="Public">
-                            <label for="public">Public</label>
-                            <br>
-                        </div>
-                        <div class="search">
-                            <input type="radio" id="private" name="choice" value="Private">
-                            <label for="private">Private</label>
-                        </div>
-                    </section>
-                </div>
-                <div class="search">
-                    <section>
-                        <label>Species</label>
-                        <input type="text" name="Species" value="Optional">
-                    </section>
-                </div>
-                    <section>
-                        <input class="submit" type="submit" value="Submit">
-                    </section>
-            </form>
-        </div>
+        <h2>Lake Search:</h2>
+        <form action="searchResults.HTML" method="POST">
+            <section class="location">
+                 <label>City, State</label>
+                <input type="text" name="location" placeholder="Login for location">
+            </section>
 
-        <div class="entries">
+            <section class="accessibility">
+                <p>Accessibility:</p>
+                <input type="radio" class="search" id="any" name="choice" value="Any">
+                <label for="any">Any</label>
+                
+                <input type="radio" class="search" id="public" name="choice" value="Public">
+                <label for="public">Public</label>
+                    
+                <input type="radio" class="search" id="private" name="choice" value="Private">
+                <label for="private">Private</label>
+            </section>
+
+            <section class="species">
+                <label>Species</label>
+                <input type="text" name="Species" placeholder="Optional">
+            </section>
+           
+            <section class="submit">
+                <input type="submit" value="Submit">
+            </section>
+        </form>
+            
+
+        <div class="hotSpots">
             <h3>Local Hot Spots</h3>
             <ul>
                 <li>Login for local Hot Spots.</li>
             </ul>
         </div>
-        <div class="entries">
+        <div class="posts">
             <h3>Recent Posts</h3>
             <ul>
                 <li>Goose Takeover in Benton Park!</li>
