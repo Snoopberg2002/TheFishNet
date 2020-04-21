@@ -8,6 +8,10 @@ h3 > a {
     color: #fff;
 }
 
+.logo {
+    grid-area: 1/2/span 2/span 3;
+}
+
 nav {
     grid-area: 1 / 9 / span 1 / span 4;
     justify-self: right;
@@ -35,19 +39,20 @@ h1 {
 }
 
 main {
-    background-color: #000;
+    background-image: url("https://i.imgur.com/tZHngpu.jpg");
+    background-size: cover;
     min-height: 500px;
     display: grid;
-    grid-template: repeat(9, 1fr)/repeat(12, 1fr);
+    grid-template: repeat(12, 1fr)/repeat(12, 1fr);
 }
 
 h2 {
-    color: #fff;
+    color: #000;
     grid-area: 1/1/span 1/span 4;
 }
 
 form {
-    color: #fff;
+    color: #000;
     grid-area: 2/1/span 2/span 12;
 }
 
@@ -67,12 +72,16 @@ form {
     grid-area: 4/6/span 1/span 2;
 }
 
+.background {
+    grid-area: 1/1/span 9/span 12;
+}
+
 .hotSpots {
-    color: white;
-    grid-area: 7/1/span 3/span 3;
+    color: #000;
+    grid-area: 9/1/span 4/span 3;
 }
 
 .posts {
-    color: white;
-    grid-area: 7/10/span 3/span 3;
+    color: #000;
+    grid-area: 9/10/span 4/span 3;
 }
